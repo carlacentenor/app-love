@@ -71,3 +71,23 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+header{
+  outline: 1px solid blue;
+  height: 50px;
+  background-color: #ffffff;
+position: relative;
+}
+.menu{
+  outline: 1px solid green;
+  transform: translateY(50%);
+  position: absolute;
+  margin-left: 5%
+}
+
+.menu a {
+  padding: 20px;
+}
+
+.logo {
+  width: 50px;
+}
